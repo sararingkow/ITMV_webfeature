@@ -10,8 +10,8 @@ img {
 }
 header {
   width: 100%;
-  height: 800px;
-  background: url(webfeature_img/header.png) no-repeat center/cover;
+  height: 850px;
+  background: url(illustrations/frontpage_image.svg) no-repeat center/cover;
 }
 
 body {
@@ -22,6 +22,25 @@ h1 {
   padding-top: 60px;
   font-size: 4em;
 }
+
+header h2 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 2em;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 1.5em;
+}
+
+h1,
+h2,
+.sucess h3 {
+  color: #485b6b;
+}
+
 .grid_1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -29,6 +48,7 @@ h1 {
 }
 .sucess {
   grid-column: 2/3;
+  color: #536573;
 }
 .left-img {
   transform: translateX(-230px);
