@@ -6,7 +6,6 @@
 img {
   width: 200px;
   height: auto;
-  display: block;
 }
 
 .first-img {
@@ -86,19 +85,21 @@ h2,
   display: flex;
   grid-column: 2/3;
   justify-content: space-between;
-  padding-top: 20px;
-  width: 30%;
-  gap: 20px;
+  padding-top: 60px;
+  gap: 45px;
 }
 
 .ikoner img {
-  width: 50%;
-  height: auto;
-  object-fit: cover;
+  width: 90%;
+  height: 120px;
 }
+
 .struktureret {
   width: 35%;
 }
 .piechart {
+  width: 35%;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
