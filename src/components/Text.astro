@@ -1,0 +1,17 @@
+---
+const overskrift = Astro.props.artist;
+const tekst = Astro.props.time;
+---
+
+<article class="text">
+<h2 class="overskrift">{overskrift}</h2>
+<p class="tekst">{tekst}</p>
+</article>
+
+
+
+<style>
+.tekst{
+    max-width: 500px;
+}
+</style>
