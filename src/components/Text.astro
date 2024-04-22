@@ -2,27 +2,28 @@
 const overskrift = Astro.props.overskrift;
 const tekst = Astro.props.tekst;
 ---
+
 <article class="tekst">
-    <h2 class="overskrift">{overskrift}</h2>
-    <p>{tekst}</p>
+  <h2 class="overskrift">{overskrift}</h2>
+  <p>{tekst}</p>
 </article>
 
 <style>
-	.tekst{
-        color: black;
-		max-width: 550px;
-		margin-right: auto;
-		margin-left: auto;
-		padding-top: 80px;
-	}
+  .tekst {
+    color: #536573;
+    max-width: 550px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+  }
 
-    .overskrift{
-text-align: center;
+  .overskrift {
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .tekst {
+      padding: 15px;
     }
-
-    @media only screen and (max-width: 600px){
-		.tekst{
-			padding: 15px;
-		}
-}
+  }
 </style>

@@ -45,46 +45,32 @@ header h2 {
   font-size: 2em;
 }
 
-h3 {
-  text-align: left;
-  padding-top: 60px;
-  font-size: 1.5em;
-}
-
 h1,
-h2,
-.sucess h3 {
+h2 {
   color: #485b6b;
 }
 
-.grid_1,
-.grid_2,
-.grid_5 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
+.centered-text {
+  text-align: center;
 }
 
-.grid_3 {
+.quote {
   display: flex;
   justify-content: center;
-}
-
-.grid_4 {
-  display: flex;
-  justify-content: center;
-  padding-top: 60px;
-  gap: 45px;
-}
-
-.sucess {
-  grid-column: 2/3;
+  text-align: center;
+  padding-top: 80px;
   color: #536573;
+  font-weight: 600;
 }
 
-.sucess img {
-  width: 90%;
-  padding-top: 90px;
+/* ikoner & kollage-billeder */
+.left-img {
+  transform: translateX(5px);
+  position: absolute;
+}
+.right-img {
+  transform: translateX(635%);
+  position: absolute;
 }
 
 .curtain {
@@ -96,39 +82,45 @@ h2,
 .curtain img {
   width: 20%;
 }
-
-.quote {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding-top: 80px;
-  color: #536573;
-  font-weight: 600;
-}
-.left-img {
-  transform: translateX(5px);
-  position: absolute;
-}
-.right-img {
-  transform: translateX(635%);
-  position: absolute;
-}
 .ikoner {
   display: flex;
-  grid-column: 2/3;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-top: 60px;
-  gap: 45px;
 }
 
 .ikoner img {
-  width: 90%;
+  width: 10%;
   height: 120px;
 }
 
+.sucess {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+/*piechart*/
 .piechart {
   width: 50%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.start_box,
+.second_start_box,
+.mid_box,
+.lower_box,
+.second_lower_box {
+  display: flex;
+  justify-content: center;
+}
+
+.start_box h2,
+.second_start_box h2,
+.mid_box h2,
+.lower_box h2,
+.second_lower_box h2 {
+  display: flex;
   justify-content: center;
 }
