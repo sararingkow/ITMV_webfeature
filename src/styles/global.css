@@ -52,7 +52,7 @@ h2,
 .grid_1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 .sucess {
   grid-column: 2/3;
