@@ -12,6 +12,7 @@ header {
   width: 100%;
   height: 850px;
   background: url(illustrations/frontpage_image.svg) no-repeat center/cover;
+  position: relative;
 }
 
 body {
