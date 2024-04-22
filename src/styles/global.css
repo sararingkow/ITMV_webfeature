@@ -49,11 +49,18 @@ h2,
   color: #485b6b;
 }
 
-.grid_1 {
+.grid_1,
+.grid_2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
 }
+
+.grid_3 {
+  display: flex;
+  justify-content: center;
+}
+
 .sucess {
   grid-column: 2/3;
   color: #536573;
@@ -77,8 +84,17 @@ h2,
 }
 .ikoner {
   display: flex;
-  grid-column: 2 / 3;
-  width: 26%;
+  grid-column: 2/3;
+  justify-content: space-between;
+  padding-top: 20px;
+  width: 30%;
+  gap: 20px;
+}
+
+.ikoner img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
 }
 .struktureret {
   width: 35%;
