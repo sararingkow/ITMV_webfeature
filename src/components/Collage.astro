@@ -3,19 +3,29 @@
 ---
 <div class="image_container">
     <img src="/png/cropped_products_collage.png" alt="kvindernes roller">
-    </div>
-    
+</div>
+
     <style>
         img{
-        width: 100%;
-        height:auto;
-    }
-    .image_container{
-        max-width: 800px;
+        width: 60%;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
-        padding-right: 85px;
+
     }
+    .image_container {
+    max-width: 1400px;
+    margin-left: auto +20px;
+    margin-right: auto;
+    text-align: center; /* Center the image horizontally */
+}
+
+img {
+    width: 60%;
+    height: auto;
+    display: inline-block; /* Ensure the image behaves like an inline element */
+}
+
     @media only screen and (max-width: 600px){
         .image_container{
             padding-right: 0;

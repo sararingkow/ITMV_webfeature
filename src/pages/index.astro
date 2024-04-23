@@ -89,7 +89,7 @@ import Scrollbar from "../components/Scrollbar.astro";
           />
         </div>
       </div>
-      <div class="pink_background">
+      <article class="pink_background">
         <div class="space_top">
           <Tekst
             overskrift="KVINDERNES ROLLER HOS ITMV"
@@ -105,10 +105,8 @@ import Scrollbar from "../components/Scrollbar.astro";
         />
         <div class="interview_video"></div>
         <Products />
-      </div>
-      <div class="blue_background">
-        <!-- <div class="collage_products">
-				</div> -->
+      </article>
+      <article class="blue_background">
         <div class="space_text"></div>
 
         <article class="repair_service">
@@ -132,7 +130,7 @@ import Scrollbar from "../components/Scrollbar.astro";
         </div>
 
         <Footer />
-      </div>
+      </article>
     </main>
   </body>
 
@@ -150,36 +148,47 @@ import Scrollbar from "../components/Scrollbar.astro";
     .quote {
       padding-top: 10px;
     }
+    .pink_background,.blue_background{
+        position: relative;
+        width: 100%;
+    }
 
     .pink_background {
+      position: relative;
       background-image: url("/svg/colored_social_indsats.svg");
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;
       height: auto;
       margin-top: 50px;
+      padding-bottom: 280px;
     }
 
     .blue_background {
       position: relative;
       background-color: #3e5c6d;
       width: 100%;
-      margin-top: 30px;
+    }
+
+    .repair_service{
+      padding-top: 80px;
+      padding-bottom: 40px;
     }
 
     .space_top {
       padding-top: 400px;
     }
-    .space_text {
+    /* .space_text {
       padding-top: 90px;
       margin-top: 50px;
-    }
+    } */
 
     .interview_video {
       background-color: grey;
       width: 60%;
       height: 500px;
       margin: auto;
+      margin-bottom: 300px;
     }
     @media only screen and (max-width: 600px) {
       .tekst {
