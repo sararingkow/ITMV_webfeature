@@ -60,13 +60,9 @@ h2 {
 }
 
 /* ikoner & kollage-billeder */
-.left-img {
-  transform: translateX(-2px);
-  position: absolute;
-}
-.right-img {
-  transform: translateX(755%);
-  position: absolute;
+.upper_start_box {
+  display: flex;
+  justify-content: space-between;
 }
 
 .ikoner {

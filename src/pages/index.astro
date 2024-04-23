@@ -31,20 +31,17 @@ import Scrollbar from "../components/Scrollbar.astro";
 
     <main>
       <div class="container">
-        <div class="left-img">
+        <div class="upper_start_box">
           <img src="../illustrations/curtain1.png" alt="illustration" />
-        </div>
-        <div class="right-img">
-          <img src="../illustrations/curtain2.png" alt="illustration" />
-        </div>
 
-        <div class="start_box">
           <Tekst
             tekst="I hjertet af enhver succesfuld virksomhed findes en kerne af visioner og mål, der driver dens vækst og indflydelse. I tråd med verden er ingen undtagelse. Grundlagt med en vision om at styrke kvinder og fremme mangfoldighed og inklusion, har denne virksomhed formået at skabe et inspirerende eksempel på, hvordan erhvervslivet kan tjene som en drivkraft for sociale ændringer."
             secondtekst="Derudover har I tråd med verden haft en betydelig indflydelse på den bæredygtige bevægelse med deres fokus på upcycling af tekstiler. Deres succes har ført til samarbejder med store navne såsom IKEA, Tivoli, GANNI og Glyptoteket, hvilket yderligere understreger deres position som en indflydelsesrig spiller på både den sociale og miljømæssige scene."
             overskrift="FORTÆLLING OM DERES SUCCES"
           />
+          <img src="../illustrations/curtain2.png" alt="illustration" />
         </div>
+
         <div class="ikoner">
           <img src="../value_icons/sustainable_drawing.png" alt="" />
           <img src="../value_icons/recycled_drawing.png" alt="" />
@@ -138,67 +135,67 @@ import Scrollbar from "../components/Scrollbar.astro";
       </div>
     </main>
   </body>
-</html>
 
-<style>
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-  .titel,
-  .logo {
-    padding-top: 70px;
-  }
-  .quote {
-    padding-top: 10px;
-  }
-
-  .pink_background {
-    background-image: url("/svg/colored_social_indsats.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
-  }
-
-  .blue_background {
-    position: relative;
-    background-color: #3e5c6d;
-    width: 100%;
-    margin-top: 30px;
-  }
-
-  .space_top {
-    padding-top: 400px;
-  }
-  .space_text {
-    padding-top: 90px;
-    margin-top: 50px;
-  }
-
-  .interview_video {
-    background-color: grey;
-    width: 60%;
-    height: 500px;
-    margin: auto;
-  }
-  @media only screen and (max-width: 600px) {
-    .tekst {
-      padding: 10px;
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
+
+    .titel,
+    .logo {
+      padding-top: 70px;
+    }
+    .quote {
+      padding-top: 10px;
+    }
+
     .pink_background {
-      background-size: contain;
+      background-image: url("/svg/colored_social_indsats.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      margin-top: 50px;
     }
+
+    .blue_background {
+      position: relative;
+      background-color: #3e5c6d;
+      width: 100%;
+      margin-top: 30px;
+    }
+
     .space_top {
-      padding-top: 200px;
+      padding-top: 400px;
     }
+    .space_text {
+      padding-top: 90px;
+      margin-top: 50px;
+    }
+
     .interview_video {
-      width: auto;
-      height: 300px;
-      margin: 0 15px 0 15px;
+      background-color: grey;
+      width: 60%;
+      height: 500px;
+      margin: auto;
     }
-  }
-</style>
+    @media only screen and (max-width: 600px) {
+      .tekst {
+        padding: 10px;
+      }
+      .pink_background {
+        background-size: contain;
+      }
+      .space_top {
+        padding-top: 200px;
+      }
+      .interview_video {
+        width: auto;
+        height: 300px;
+        margin: 0 15px 0 15px;
+      }
+    }
+  </style>
+</html>
