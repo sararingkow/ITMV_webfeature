@@ -64,6 +64,10 @@ h2 {
   justify-content: space-between;
 }
 
+.repair_service {
+  display: flex;
+}
+
 .ikoner {
   display: flex;
   justify-content: center;
