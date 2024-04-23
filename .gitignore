@@ -7,8 +7,6 @@ dist/
 node_modules/
 .vscode/
 
-*.mp4
-
 # logs
 npm-debug.log*
 yarn-debug.log*
