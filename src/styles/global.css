@@ -64,10 +64,6 @@ h2 {
   justify-content: space-between;
 }
 
-.repair_service {
-  display: flex;
-}
-
 .ikoner {
   display: flex;
   justify-content: center;
@@ -108,4 +104,26 @@ h2 {
   max-width: 200px;
   line-height: 1.5;
   font-size: 12px;
+}
+
+/* arrow */
+.arrow {
+  display: flex;
+  justify-content: center;
+  animation: MoveUpDown 4s linear infinite;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(10%);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.arrow img {
+  padding-top: 150px;
+  width: 30px;
 }
