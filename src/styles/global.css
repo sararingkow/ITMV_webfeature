@@ -65,14 +65,10 @@ h2 {
   position: absolute;
 }
 .right-img {
-  transform: translateX(466%);
+  transform: translateX(755%);
   position: absolute;
 }
 
-.left-img img,
-.right-img img {
-  width: 80%;
-}
 .ikoner {
   display: flex;
   justify-content: center;
