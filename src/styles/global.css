@@ -127,3 +127,7 @@ h2 {
   padding-top: 150px;
   width: 30px;
 }
+
+video {
+  width: 100%;
+}

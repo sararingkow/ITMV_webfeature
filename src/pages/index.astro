@@ -105,7 +105,9 @@ import Scrollbar from "../components/Scrollbar.astro";
           overskrift="OLENAS PERSPEKTIV"
           tekst="Endelig er det vigtigt at give kvinderne mulighed for at dele deres egne historier, udfordringer og triumfer hos I tråd med verden. For dem repræsenterer virksomheden ikke blot et sted at arbejde, men et fællesskab, hvor de kan vokse og blomstre både personligt og professionelt. Deres håb og ambitioner for fremtiden er en integreret del af virksomhedens fortsatte udvikling og succes."
         />
-        <div class="interview_video"></div>
+        <div class="interview_video">
+          <video src="../video/olena_interview.mp4" controls></video>
+        </div>
         <Products />
       </article>
       <article class="blue_background">
@@ -150,9 +152,10 @@ import Scrollbar from "../components/Scrollbar.astro";
     .quote {
       padding-top: 60px;
     }
-    .pink_background,.blue_background{
-        position: relative;
-        width: 100%;
+    .pink_background,
+    .blue_background {
+      position: relative;
+      width: 100%;
     }
 
     .pink_background {
@@ -172,7 +175,7 @@ import Scrollbar from "../components/Scrollbar.astro";
       width: 100%;
     }
 
-    .repair_service{
+    .repair_service {
       padding-top: 80px;
       padding-bottom: 40px;
     }
