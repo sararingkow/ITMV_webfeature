@@ -4,30 +4,36 @@ const tekst = Astro.props.tekst;
 const secondtekst = Astro.props.secondtekst;
 const thirdtekst = Astro.props.thirdtekst;
 const fourthtekst = Astro.props.fourthtekst;
+const fifthtekst = Astro.props.fifthtekst;
+const sixthtekst = Astro.props.sixthtekst;
 ---
+
 <article class="tekst">
-    <h2 class="overskrift">{overskrift}</h2>
-    <p>{tekst}</p>
-    <p>{secondtekst}</p>
-    <p>{thirdtekst}</p>
-    <p>{fourthtekst}</p>
+  <h2 class="overskrift">{overskrift}</h2>
+  <p>{tekst}</p>
+  <p>{secondtekst}</p>
+  <p>{thirdtekst}</p>
+  <p>{fourthtekst}</p>
+  <p>{fifthtekst}</p>
+  <p>{sixthtekst}</p>
 </article>
 
 <style>
-	.tekst{
-		max-width: 550px;
-		margin-right: auto;
-		margin-left: auto;
-		padding-top: 80px;
-	}
+  .tekst {
+    max-width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 80px;
+  }
 
-    .overskrift{
-text-align: center;
+  .overskrift {
+    text-align: center;
+    color: #485b6b;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .tekst {
+      padding: 15px;
     }
-
-    @media only screen and (max-width: 600px){
-		.tekst{
-			padding: 15px;
-		}
-}
+  }
 </style>

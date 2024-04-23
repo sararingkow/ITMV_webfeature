@@ -1,39 +1,40 @@
 ---
-const overskrift = Astro.props.overskrift;
+const overskriftWhite = Astro.props.overskrift;
 const tekst = Astro.props.tekst;
 const secondtekst = Astro.props.secondtekst;
 const thirdtekst = Astro.props.thirdtekst;
 const fourthtekst = Astro.props.fourthtekst;
 ---
+
 <article class="tekstWhite">
-    <h2 class="overskriftWhite">{overskrift}</h2>
-    <p>{tekst}</p>
-    <p>{secondtekst}</p>
-    <p>{thirdtekst}</p>
-    <p>{fourthtekst}</p>
+  <h2 class="overskriftWhite">{overskriftWhite}</h2>
+  <p>{tekst}</p>
+  <p>{secondtekst}</p>
+  <p>{thirdtekst}</p>
+  <p>{fourthtekst}</p>
 </article>
 
 <style>
-	.tekstWhite{
-        color: white;
-		max-width: 550px;
-		margin-right: auto;
-		margin-left: auto;
-		padding-top: 80px;
-	}
+  .tekstWhite {
+    color: white;
+    max-width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 80px;
+  }
 
-    p{
-        margin: 10px 0 10px 0;
+  p {
+    margin: 10px 0 10px 0;
+  }
+
+  .overskriftWhite {
+    text-align: center;
+    color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .tekstWhite {
+      padding: 15px;
     }
-
-    .overskriftWhite{
-        text-align: center;
-        color: white;
-    }
-
-    @media only screen and (max-width: 600px){
-		.tekstWhite{
-			padding: 15px;
-		}
-}
+  }
 </style>
