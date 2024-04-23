@@ -39,6 +39,7 @@ p {
 header h2 {
   text-align: center;
   font-size: 2em;
+  color: #485b6b;
 }
 
 h1 {
@@ -64,18 +65,13 @@ h2 {
   position: absolute;
 }
 .right-img {
-  transform: translateX(635%);
+  transform: translateX(466%);
   position: absolute;
 }
 
-.curtain {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 60px;
-}
-
-.curtain img {
-  width: 20%;
+.left-img img,
+.right-img img {
+  width: 80%;
 }
 .ikoner {
   display: flex;
