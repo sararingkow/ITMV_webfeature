@@ -3,17 +3,16 @@
 ---
 
 <div class="image_container_row">
-
-    <a href="https://www.itmv.dk/pages/partnerskab">
-        <img src="/svg/samarbejde_icon.svg" alt="collage of products">
-    </a>
-    <a href="https://www.itmv.dk/pages/donation">
-        <img src="/svg/stoet.svg" alt="collage of products">
-    </a>
+  <a href="https://www.itmv.dk/pages/partnerskab">
+    <img src="/svg/samarbejde_icon.svg" alt="collage of products" />
+  </a>
+  <a href="https://www.itmv.dk/pages/donation">
+    <img src="/svg/stoet.svg" alt="collage of products" />
+  </a>
 </div>
 
 <style>
-      @keyframes pulse {
+  @keyframes pulse {
     0% {
       transform: scale(1);
     }
@@ -37,9 +36,13 @@
     animation: pulse 3s ease-in-out infinite;
   }
 
+  .image_container_row img:hover {
+    opacity: 0.7;
+  }
+
   @media only screen and (max-width: 600px) {
     .image_container_row {
       width: 1%;
     }
-}
+  }
 </style>
