@@ -1,0 +1,35 @@
+---
+
+---
+<div class="space_collage"></div>
+<div class="image_container">
+    <img src="/png/collage_produkter.png" alt="collage of products">
+</div>
+<style>
+img{
+    height: auto;
+    width: 100%;
+}
+
+.space_collage{
+		padding-top: 500px;
+	}
+
+.image_container{
+}
+.image_container img{
+position: absolute;
+top: 280%;
+left: 0;
+z-index: 1000;
+}
+
+@media only screen and (max-width: 600px){
+.image_container img{
+display: none;
+} 
+.space_collage{
+    display: none;
+}
+}
+</style>
