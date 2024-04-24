@@ -136,11 +136,16 @@ h2 {
 .interview_video {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-top: 50px; /* Adjust margin-top as needed */
 }
 
 video {
-  width: 40%;
-  height: 400px;
-  object-fit: cover;
+  width: 100%; /* Ensure the video fills the container */
+  max-width: 800px; /* Optional: Set a maximum width for the video */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media only screen and (max-width: 600px) {
+  .video {
+  }
 }
