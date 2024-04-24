@@ -103,6 +103,10 @@ h2 {
   gap: 20px;
 }
 
+.mid_box {
+  padding: 10px;
+}
+
 .lower_box p {
   color: #536573;
   text-align: center;
