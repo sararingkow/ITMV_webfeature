@@ -20,18 +20,23 @@ const sixthtekst = Astro.props.sixthtekst;
 
 <style>
   .tekst {
-    max-width: 680px;
+    max-width: 700px;
     margin-right: auto;
     margin-left: auto;
     color: #536573;
-    line-height: 2.2;
-    font-size: 1rem;
+    font-size: 1em;
+    margin-bottom: 20px; /* Add margin-bottom for vertical spacing */
+  }
+
+  .tekst p {
+    margin: 15px !important;
+    color: #536573;
+    line-height: 2.6;
   }
 
   .overskrift {
     text-align: center;
     color: #485b6b;
-    font-size: 1.2rem;
   }
 
   @media only screen and (max-width: 600px) {
