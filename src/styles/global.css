@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 img {
-  width: 200px;
+  width: 240px;
   height: auto;
 }
 
@@ -16,7 +16,7 @@ img {
 
 header {
   width: 100%;
-  height: 850px;
+  height: 1000px;
   background: url(../illustrations/frontpage_image.svg) no-repeat center/cover;
   position: relative;
 }
@@ -56,6 +56,10 @@ h2 {
   text-align: center;
   color: #536573;
   font-weight: 600;
+}
+
+.quote p {
+  padding-top: 60px;
 }
 
 /* ikoner & kollage-billeder */
@@ -124,10 +128,19 @@ h2 {
 }
 
 .arrow img {
-  padding-top: 150px;
+  padding-top: 200px;
   width: 30px;
 }
 
+/* video */
+.interview_video {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
 video {
-  width: 100%;
+  width: 40%;
+  height: 400px;
+  object-fit: cover;
 }
