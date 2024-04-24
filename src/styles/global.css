@@ -98,9 +98,9 @@ h2 {
 }
 
 .lower_box {
-  max-width: 1400px;
-  margin: 0 auto;
-  text-align: center; /* Center the image horizontally */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .lower_box p {
