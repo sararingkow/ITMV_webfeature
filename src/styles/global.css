@@ -16,9 +16,10 @@ img {
 
 header {
   width: 100%;
-  height: 1000px;
-  background: url(../illustrations/frontpage_image.svg) no-repeat center/cover;
+  height: 900px; /* Adjust height as needed */
+  background: url(../illustrations/frontpage_image.svg) no-repeat center top; /* Center horizontally, cut off top */
   position: relative;
+  background-size: cover; /* Maintain aspect ratio */
 }
 
 body {
@@ -114,7 +115,7 @@ h2 {
 .arrow {
   display: flex;
   justify-content: center;
-  animation: MoveUpDown 4s linear infinite;
+  animation: MoveUpDown 2.5s linear infinite;
 }
 
 @keyframes MoveUpDown {
@@ -128,7 +129,7 @@ h2 {
 }
 
 .arrow img {
-  padding-top: 200px;
+  padding-top: 50px;
   width: 30px;
 }
 
@@ -146,6 +147,12 @@ video {
 }
 
 @media only screen and (max-width: 600px) {
-  .video {
+  .arrow img {
+    padding-top: 100px;
+  }
+
+  .lower_box {
+    display: block;
+    margin: 20px;
   }
 }

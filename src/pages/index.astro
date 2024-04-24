@@ -146,7 +146,7 @@ import Scrollbar from "../components/Scrollbar.astro";
 
     .titel,
     .logo {
-      padding-top: 70px;
+      padding-top: 50px;
     }
     .quote {
       padding-top: 60px;
@@ -179,7 +179,7 @@ import Scrollbar from "../components/Scrollbar.astro";
     }
 
     .space_top {
-      padding-top: 400px;
+      padding-top: 300px;
     }
     /* .space_text {
       padding-top: 90px;
@@ -196,9 +196,11 @@ import Scrollbar from "../components/Scrollbar.astro";
         padding-top: 200px;
       }
 
-      .upper_start_box img {
-        display: none;
-      }
+      .quote {
+      padding-top: 0;
+      padding-bottom: 30px;
+    }
+
 
       .sucess img {
         padding: 20px;
@@ -215,5 +217,13 @@ width:100%;
 height: auto;
 }
     }
+
+
+    @media only screen and (max-width: 1100px) {
+    .upper_start_box img {
+        display: none;
+      }
+    }
+
   </style>
 </html>
